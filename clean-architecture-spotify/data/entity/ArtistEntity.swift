@@ -31,9 +31,9 @@ struct ArtistEntity{
 			}
 		}
 		limit = dictionary["limit"] as? Int
-		next = dictionary["next"] as? AnyObject
+		next = dictionary["next"] as AnyObject
 		offset = dictionary["offset"] as? Int
-		previous = dictionary["previous"] as? AnyObject
+		previous = dictionary["previous"] as AnyObject
 		total = dictionary["total"] as? Int
 	}
 

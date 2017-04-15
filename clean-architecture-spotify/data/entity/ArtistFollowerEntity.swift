@@ -17,7 +17,7 @@ struct ArtistFollowerEntity{
 	 * Instantiate the instance using the passed dictionary values to set the properties values
 	 */
 	init(fromDictionary dictionary: [String:Any]){
-		href = dictionary["href"] as? AnyObject
+		href = dictionary["href"] as AnyObject
 		total = dictionary["total"] as? Int
 	}
 
